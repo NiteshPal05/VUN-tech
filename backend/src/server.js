@@ -62,7 +62,7 @@ app.use("/api/admin/login", loginLimiter)
 app.use("/api", publicRoutes)
 app.use("/api", adminRoutes)
 
-app.get("/health", (req, res) => {
+app.get("/health", (_req, res) => {
   res.json({ status: "ok" })
 })
 
