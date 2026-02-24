@@ -38,12 +38,12 @@ https://vun-tech.netlify.app/
 
 
 VUN-tech/
-│
-├── frontend/ # React frontend (Netlify)
-│
-├── backend/ # Express backend API (Render)
-│
-└── README.md
+
+- frontend/ # React frontend (Netlify)
+
+- backend/ # Express backend API (Render)
+
+- README.md
 
 
 ---
@@ -135,14 +135,13 @@ http://localhost:5173
 
 User
 │
-▼
-Netlify (Frontend)
+ - Netlify (Frontend)
 │
-▼
-Render (Backend API)
+
+ - Render (Backend API)
 │
-▼
-MongoDB Atlas (Database)
+
+ - MongoDB Atlas (Database)
 
 
 ---
