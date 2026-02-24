@@ -29,7 +29,7 @@ app.use(helmet())
 
 const allowedOrigins = process.env.CORS_ORIGIN
   ? process.env.CORS_ORIGIN.split(",").map((origin) => origin.trim())
-  : ["http://localhost:5173"]
+  : ["http://localhost:5173","https://vun-tech.netlify.app"]
 
 app.use(
   cors({
