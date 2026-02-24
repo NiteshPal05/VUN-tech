@@ -2,16 +2,16 @@
 
 A production-ready full-stack web application built using **React (Vite)**, **Node.js**, **Express.js**, and **MongoDB Atlas**, deployed on **Netlify** and **Render**. The platform provides a modern tech agency interface with a secure admin panel to manage services, projects, categories, and trending products.
 
+---
 
-
-##  Live Demo
+## 🌐 Live Demo
 
 **Frontend (Netlify):**  
 https://vun-tech.netlify.app/
 
+---
 
-
-## Tech Stack
+## 🚀 Tech Stack
 
 ### Frontend
 - React.js (Vite)
@@ -37,6 +37,15 @@ https://vun-tech.netlify.app/
 ## 📁 Project Structure
 
 
+VUN-tech/
+│
+├── frontend/ # React frontend (Netlify)
+│
+├── backend/ # Express backend API (Render)
+│
+└── README.md
+
+
 ---
 
 ## ✨ Features
@@ -58,26 +67,26 @@ https://vun-tech.netlify.app/
 - Fully responsive modern UI
 - Production-ready deployment architecture
 
+---
 
-
-## Environment Variables
+## ⚙️ Environment Variables
 
 ### Backend (.env)
 
 
 PORT=5001
-MONGO_URI=your_mongodb_atlas_connection_string
+MONGO_URI=mongodb_atlas_connection_string
 JWT_SECRET=your_jwt_secret
 
-ADMIN_EMAIL=your_admin_email
-ADMIN_PASSWORD=your_admin_password
+ADMIN_EMAIL=admin_email
+ADMIN_PASSWORD=admin_password
 
 CORS_ORIGIN=https://vun-tech.netlify.app
 
 SEED_ON_START=true
 
-RAZORPAY_KEY_ID=your_razorpay_key
-RAZORPAY_KEY_SECRET=your_razorpay_secret
+RAZORPAY_KEY_ID=razorpay_key
+RAZORPAY_KEY_SECRET=razorpay_secret
 
 
 ---
@@ -86,13 +95,12 @@ RAZORPAY_KEY_SECRET=your_razorpay_secret
 
 
 VITE_API_URL=https://backend
-
 VITE_CONTACT_EMAIL=hello@techservices.agency
 
 VITE_WHATSAPP_URL=https://wa.me/my_number
 
 
-
+---
 
 ## 🧪 Run Project Locally
 
@@ -107,10 +115,9 @@ npm run dev
 Backend runs on:  
 http://localhost:5001
 
+---
 
-
-
-Backend runs on:http://localhost:5000
+### Run Frontend
 
 
 cd frontend
@@ -121,9 +128,11 @@ npm run dev
 Frontend runs on:  
 http://localhost:5173
 
-
+---
 
 ## 🌍 Deployment Architecture
+
+
 User
 │
 ▼
@@ -137,3 +146,7 @@ MongoDB Atlas (Database)
 
 
 ---
+
+## 📄 License
+
+This project is created for portfolio, learning, and professional development purposes.
