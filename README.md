@@ -1,12 +1,12 @@
 # VUN Tech – Full-Stack Tech Agency Web Application
 
-A production-ready full-stack web application built using React (Vite), Node.js, Express.js, and MongoDB Atlas, deployed on Netlify and Render. The platform provides a modern tech agency interface with a secure admin panel to manage services, projects, categories, and trending products.
+A production-ready full-stack web application built using **React (Vite)**, **Node.js**, **Express.js**, and **MongoDB Atlas**, deployed on **Netlify** and **Render**. The platform provides a modern tech agency interface with a secure admin panel to manage services, projects, categories, and trending products.
 
 
 
 ##  Live Demo
 
-Frontend (Netlify):  
+**Frontend (Netlify):**  
 https://vun-tech.netlify.app/
 
 
@@ -32,26 +32,18 @@ https://vun-tech.netlify.app/
 - Backend deployed on Render
 - Database hosted on MongoDB Atlas
 
+---
+
+## 📁 Project Structure
 
 
-##  Project Structure
+---
 
-VUN-tech/
-│
-├── frontend/ # React frontend (Netlify)
-│
-├── backend/ # Express backend API (Render)
-│
-└── README.md
-
-
-
-
-##  Features
+## ✨ Features
 
 - Full-stack production deployment
-- Secure admin authentication (JWT)
-- Admin panel functionality:
+- Secure admin authentication using JWT
+- Admin panel functionality to:
   - Manage services
   - Manage projects
   - Manage categories
@@ -64,7 +56,7 @@ VUN-tech/
   - Rate limiting
 - Razorpay payment integration ready
 - Fully responsive modern UI
-- Professional deployment architecture
+- Production-ready deployment architecture
 
 
 
@@ -72,53 +64,66 @@ VUN-tech/
 
 ### Backend (.env)
 
-PORT=10000
-MONGO_URI=mongodb_atlas_connection_string
-JWT_SECRET=jwt_secret
 
-ADMIN_EMAIL=admin_email
-ADMIN_PASSWORD=admin_password
+PORT=5001
+MONGO_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=your_jwt_secret
+
+ADMIN_EMAIL=your_admin_email
+ADMIN_PASSWORD=your_admin_password
 
 CORS_ORIGIN=https://vun-tech.netlify.app
 
 SEED_ON_START=true
 
-RAZORPAY_KEY_ID=razorpay_key
-RAZORPAY_KEY_SECRET=razorpay_secret
+RAZORPAY_KEY_ID=your_razorpay_key
+RAZORPAY_KEY_SECRET=your_razorpay_secret
+
+
+---
 
 ### Frontend (.env)
 
-VITE_API_URL= backed render link
+
+VITE_API_URL=https://backend
+
 VITE_CONTACT_EMAIL=hello@techservices.agency
+
 VITE_WHATSAPP_URL=https://wa.me/my_number
 
 
 
 
-### 2. Run Backend
+## 🧪 Run Project Locally
+
+### Run Backend
+
+
 cd backend
 npm install
 npm run dev
 
 
+Backend runs on:  
+http://localhost:5001
 
 
 
-Backend runs on:http://localhost:5001
+
+Backend runs on:http://localhost:5000
 
 
-### 3. Run Frontend
 cd frontend
 npm install
 npm run dev
 
 
-Frontend runs on:http://localhost:5173
+Frontend runs on:  
+http://localhost:5173
 
 
 
-
-##  Deployment Architecture
+## 🌍 Deployment Architecture
 User
 │
 ▼
@@ -131,4 +136,4 @@ Render (Backend API)
 MongoDB Atlas (Database)
 
 
-
+---
