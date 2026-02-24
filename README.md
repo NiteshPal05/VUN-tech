@@ -2,16 +2,16 @@
 
 A production-ready full-stack web application built using React (Vite), Node.js, Express.js, and MongoDB Atlas, deployed on Netlify and Render. The platform provides a modern tech agency interface with a secure admin panel to manage services, projects, categories, and trending products.
 
----
 
-## 🌐 Live Demo
+
+##  Live Demo
 
 Frontend (Netlify):  
 https://vun-tech.netlify.app/
 
----
 
-## 🚀 Tech Stack
+
+## Tech Stack
 
 ### Frontend
 - React.js (Vite)
@@ -32,14 +32,22 @@ https://vun-tech.netlify.app/
 - Backend deployed on Render
 - Database hosted on MongoDB Atlas
 
----
-
-## 📁 Project Structure
 
 
----
+##  Project Structure
 
-## ✨ Features
+VUN-tech/
+│
+├── frontend/ # React frontend (Netlify)
+│
+├── backend/ # Express backend API (Render)
+│
+└── README.md
+
+
+
+
+##  Features
 
 - Full-stack production deployment
 - Secure admin authentication (JWT)
@@ -58,9 +66,9 @@ https://vun-tech.netlify.app/
 - Fully responsive modern UI
 - Professional deployment architecture
 
----
 
-## ⚙️ Environment Variables
+
+## Environment Variables
 
 ### Backend (.env)
 
@@ -85,7 +93,7 @@ VITE_CONTACT_EMAIL=hello@techservices.agency
 VITE_WHATSAPP_URL=https://wa.me/my_number
 
 
----
+
 
 ### 2. Run Backend
 cd backend
@@ -93,10 +101,10 @@ npm install
 npm run dev
 
 
----
 
 
-Backend runs on:http://localhost:5000
+
+Backend runs on:http://localhost:5001
 
 
 ### 3. Run Frontend
@@ -108,9 +116,9 @@ npm run dev
 Frontend runs on:http://localhost:5173
 
 
----
 
-## 🌍 Deployment Architecture
+
+##  Deployment Architecture
 User
 │
 ▼
@@ -123,4 +131,4 @@ Render (Backend API)
 MongoDB Atlas (Database)
 
 
----
+
