@@ -1,78 +1,126 @@
-# TechAgency Full-Stack App
+# VUN Tech – Full-Stack Tech Agency Web Application
 
-Full-stack web app with a React + Vite frontend and an Express + MongoDB backend.
+A production-ready full-stack web application built using React (Vite), Node.js, Express.js, and MongoDB Atlas, deployed on Netlify and Render. The platform provides a modern tech agency interface with a secure admin panel to manage services, projects, categories, and trending products.
 
-## Project Structure
+---
 
-- `frontend/` React app (Vite)
-- `backend/` Express API server
+## 🌐 Live Demo
 
-## Prerequisites
+Frontend (Netlify):  
+https://vun-tech.netlify.app/
 
-- Node.js 18+ recommended
-- MongoDB running locally or a hosted MongoDB URI
+---
 
-## Environment Variables
+## 🚀 Tech Stack
 
-Create or update these files:
+### Frontend
+- React.js (Vite)
+- Tailwind CSS
+- Axios
+- Responsive UI
 
-`backend/.env`
-```
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/techservices
-JWT_SECRET=your_jwt_secret
-ADMIN_EMAIL=admin@example.com
-ADMIN_PASSWORD=your_password
-CORS_ORIGIN=http://localhost:5173
+### Backend
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose ODM
+- JWT Authentication
+- REST API Architecture
+
+### Deployment
+- Frontend deployed on Netlify
+- Backend deployed on Render
+- Database hosted on MongoDB Atlas
+
+---
+
+## 📁 Project Structure
+
+
+---
+
+## ✨ Features
+
+- Full-stack production deployment
+- Secure admin authentication (JWT)
+- Admin panel functionality:
+  - Manage services
+  - Manage projects
+  - Manage categories
+  - Manage trending products
+- MongoDB Atlas cloud database integration
+- RESTful API architecture
+- Security middleware:
+  - Helmet
+  - CORS protection
+  - Rate limiting
+- Razorpay payment integration ready
+- Fully responsive modern UI
+- Professional deployment architecture
+
+---
+
+## ⚙️ Environment Variables
+
+### Backend (.env)
+
+PORT=10000
+MONGO_URI=mongodb_atlas_connection_string
+JWT_SECRET=jwt_secret
+
+ADMIN_EMAIL=admin_email
+ADMIN_PASSWORD=admin_password
+
+CORS_ORIGIN=https://vun-tech.netlify.app
+
 SEED_ON_START=true
-RAZORPAY_KEY_ID=your_razorpay_key
-RAZORPAY_KEY_SECRET=your_razorpay_secret
-```
 
-`frontend/.env`
-```
-VITE_API_URL=http://localhost:5000
+RAZORPAY_KEY_ID=razorpay_key
+RAZORPAY_KEY_SECRET=razorpay_secret
+
+### Frontend (.env)
+
+VITE_API_URL= backed render link
 VITE_CONTACT_EMAIL=hello@techservices.agency
-VITE_WHATSAPP_URL=https://wa.me/1234567890
-```
+VITE_WHATSAPP_URL=https://wa.me/my_number
 
-Note: On some Macs, port `5000` is used by AirPlay. If so, change `PORT` to `5001`
-and update `VITE_API_URL` to `http://localhost:5001`.
 
-## Install Dependencies
+---
 
-```
+### 2. Run Backend
 cd backend
 npm install
-
-cd ../frontend
-npm install
-```
-
-## Run Locally
-
-In one terminal:
-```
-cd backend
 npm run dev
-```
 
-In another terminal:
-```
+
+---
+
+
+Backend runs on:http://localhost:5000
+
+
+### 3. Run Frontend
 cd frontend
+npm install
 npm run dev
-```
 
-Frontend: `http://localhost:5173/`  
-Backend health check: `http://localhost:5000/health`
 
-## Scripts
+Frontend runs on:http://localhost:5173
 
-Backend:
-- `npm run dev` starts the API with file watching
-- `npm start` starts the API in normal mode
 
-Frontend:
-- `npm run dev` starts Vite dev server
-- `npm run build` builds for production
-- `npm run preview` previews the production build
+---
+
+## 🌍 Deployment Architecture
+User
+│
+▼
+Netlify (Frontend)
+│
+▼
+Render (Backend API)
+│
+▼
+MongoDB Atlas (Database)
+
+
+---
