@@ -74,19 +74,19 @@ VUN-tech/
 ### Backend (.env)
 
 
-PORT=5001
-MONGO_URI=mongodb_atlas_connection_string
-JWT_SECRET=your_jwt_secret
+- PORT=5001
+- MONGO_URI=mongodb_atlas_connection_string
+- JWT_SECRET=your_jwt_secret
 
-ADMIN_EMAIL=admin_email
-ADMIN_PASSWORD=admin_password
+- ADMIN_EMAIL=admin_email
+- ADMIN_PASSWORD=admin_password
 
-CORS_ORIGIN=https://vun-tech.netlify.app
+- CORS_ORIGIN=https://vun-tech.netlify.app
 
-SEED_ON_START=true
+- SEED_ON_START=true
 
-RAZORPAY_KEY_ID=razorpay_key
-RAZORPAY_KEY_SECRET=razorpay_secret
+- RAZORPAY_KEY_ID=razorpay_key
+- RAZORPAY_KEY_SECRET=razorpay_secret
 
 
 ---
@@ -94,10 +94,10 @@ RAZORPAY_KEY_SECRET=razorpay_secret
 ### Frontend (.env)
 
 
-VITE_API_URL=https://backend
-VITE_CONTACT_EMAIL=hello@techservices.agency
+- VITE_API_URL=https://backend
+- VITE_CONTACT_EMAIL=hello@techservices.agency
 
-VITE_WHATSAPP_URL=https://wa.me/my_number
+- VITE_WHATSAPP_URL=https://wa.me/my_number
 
 
 ---
