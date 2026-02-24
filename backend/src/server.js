@@ -13,7 +13,6 @@ import { Service } from "./models/Service.js"
 import { ServiceCategory } from "./models/ServiceCategory.js"
 import { Project } from "./models/Project.js"
 import { TrendingProduct } from "./models/TrendingProduct.js"
-import connectDatabase from "./config/db.js"
 import {
   defaultServices,
   defaultProjects,
