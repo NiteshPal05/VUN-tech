@@ -146,6 +146,33 @@ User
 
 ---
 
+## 👨‍💻 Contributors
+
+This project was developed as a collaborative full-stack contribution project.
+
+### Uday Chandra
+- Backend development
+- MongoDB Atlas integration
+- Render deployment
+- REST API architecture
+- Authentication and admin system
+- Production deployment and backend configuration
+
+### Vaani Sharma
+- Frontend development
+- UI implementation
+- React component development
+- Frontend-backend integration
+- Responsive design implementation
+
+### Nitesh Pal
+- Project collaboration and coordination
+- Frontend and backend integration support
+- Testing and project setup assistance
+- Repository management and project maintenance
+
+---
+
 ## 📄 License
 
 This project is created for portfolio, learning, and professional development purposes.
