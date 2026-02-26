@@ -4,14 +4,14 @@ A production-ready full-stack web application built using **React (Vite)**, **No
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 
 **Frontend (Netlify):**  
 https://vun-tech.netlify.app/
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React.js (Vite)
@@ -34,7 +34,7 @@ https://vun-tech.netlify.app/
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 
 VUN-tech/
@@ -48,7 +48,7 @@ VUN-tech/
 
 ---
 
-## ✨ Features
+##  Features
 
 - Full-stack production deployment
 - Secure admin authentication using JWT
@@ -69,7 +69,7 @@ VUN-tech/
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 ### Backend (.env)
 
@@ -102,7 +102,7 @@ VUN-tech/
 
 ---
 
-## 🧪 Run Project Locally
+##  Run Project Locally
 
 ### Run Backend
 
@@ -130,7 +130,7 @@ http://localhost:5173
 
 ---
 
-## 🌍 Deployment Architecture
+##  Deployment Architecture
 
 
 User
@@ -146,7 +146,7 @@ User
 
 ---
 
-## 👨‍💻 Contributors
+##  Contributors
 
 This project was developed as a collaborative full-stack contribution project.
 
@@ -173,6 +173,6 @@ This project was developed as a collaborative full-stack contribution project.
 
 ---
 
-## 📄 License
+## License
 
 This project is created for portfolio, learning, and professional development purposes.
